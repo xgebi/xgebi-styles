@@ -1,0 +1,41 @@
+$primary:    hsla(348, 83%, 47%, 1);
+$secondary: hsla(216, 83%, 47%, 1);
+$tertiary:    hsla(54, 83%, 47%,1);
+$black:     hsla(0, 0%, 7%, 1);
+$white:       hsla(0, 0%, 100%, 1);
+$grey80:    hsl(0, 0%, 20%);
+
+.styleguide {
+    .square {
+        width: 150px;
+        height: 150px;
+    }
+
+    .bg-primary {
+        background: $primary;
+    }
+
+    .color-primary {
+        color: $primary;
+    }
+
+    .bg-secondary {
+        background: $secondary;
+    }
+
+    .color-secondary {
+        color: $secondary
+    }
+
+    .bg-tertiary {
+        background: $tertiary;
+    }
+
+    .color-tertiary{
+        color: $tertiary;
+    }
+
+    .color-holder {
+        margin: 0 1rem;
+    }
+}

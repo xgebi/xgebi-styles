@@ -1,0 +1,45 @@
+.styleguide {
+    .button {
+        padding: 0.5rem 1rem;
+        border: 0;
+        -webkit-box-shadow: 1px 1px 3px $grey80;
+        box-shadow: 1px 1px 3px $grey80;
+
+        &.button-primary {
+            color: $white;
+            background: $primary;
+        }
+
+        &.button-secondary {
+            color: $white;
+            background: $secondary;
+        }
+
+        &.button-tertiary {
+            color: $black;
+            background: $tertiary;
+        }
+
+        &:active {
+            -webkit-box-shadow:inset 1px 1px 3px 0 $grey80;
+            box-shadow:inset 1px 1px 3px 0 $grey80;
+        }   
+
+        &.no-shadow {
+            box-shadow: 0 0 0 $white;
+        }     
+    }
+    .sidebar {
+        width: 250px;        
+        background: secondary;
+
+        .sidebar-link {
+            padding: .5rem 1rem;
+            margin: 0;
+            list-style: none;
+            a, a:visited, a:link, a:active, a:hover {
+                color: $white;
+            }
+        }
+    }
+}
