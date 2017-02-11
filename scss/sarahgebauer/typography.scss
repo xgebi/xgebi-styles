@@ -1,46 +1,49 @@
 $ms-base: 1rem;
 $ms-ratio: 1.025;
 
-.styleguide {
+body {
     font-size: ms(2);
     font-family: 'Cabin', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 2rem 0;
+}
 
-    h1, h2, h3, h4, h5, h6 {
-        margin: 2rem 0;
-    }
+h1 {
+    font-size: ms(48);
 
-    h1 {
-        font-size: ms(48);
+    sup {
+        font-size: ms(-1);
+    }
+}
 
-        sup {
-            font-size: ms(-1);
-        }
-    }
+h2 {
+    font-size: ms(48);
+}
 
-    h2 {
-        font-size: ms(48);
-    }
+h3 {
+    font-size: ms(40);
+}
 
-    h3 {
-        font-size: ms(40);
-    }
+h4 {
+    font-size: ms(36);
+}
+h5 {
+    font-size: ms(28);
+}
 
-    h4 {
-        font-size: ms(36);
-    }
-    h5 {
-        font-size: ms(28);
-    }
+h6 {
+    font-size: ms(20);
+}
 
-    h6 {
-        font-size: ms(20);
-    }
+.italicized {
+    font-style: italic;
+}
 
-    .italicized {
-        font-style: italic;
-    }
+.boldened {
+    font-weight: 700;
+}
 
-    .boldened {
-        font-weight: 700;
-    }
+p {
+    line-height: 1.5;
 }

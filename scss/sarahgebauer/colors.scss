@@ -2,5 +2,79 @@ $primary:       #55006B;
 $secondary:     #FF7617;
 $tertiary:      #FFF1E7;
 $grey:          #292929;
+$gray:          #eee;
 $black:         #000;
 $white:         #fff;
+
+.square {
+    width: 150px;
+    height: 150px;
+
+    &.bg-white {
+        border: 1px solid $black;
+    }
+}
+
+.color-holder {
+        margin: 0 1rem;
+    }
+
+.bg-primary {
+    background: $primary;
+}
+
+.color-primary {
+    color: $primary;
+}
+
+.bg-secondary {
+    background: $secondary;
+}
+
+.color-secondary {
+    color: $secondary
+}
+
+.bg-tertiary {
+    background: $tertiary;
+}
+
+.color-tertiary{
+    color: $tertiary;
+}
+
+.bg-grey {
+    background: $grey;
+}
+
+.color-grey {
+    color: $grey;
+}
+
+.bg-gray {
+    background: $gray;
+}
+
+.color-gray {
+    color: $gray;
+}
+
+.bg-black {
+    background: $black;
+}
+
+.color-black {
+    color: $black;
+}
+
+.bg-white {
+    background: $white;
+}
+
+.color-white {
+    color: $white;
+}
+
+.color-holder {
+    margin: 0 1rem;
+}

@@ -11,7 +11,7 @@
     <link href="sarahgebauer.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-tertiary">
     <header class="styleguide">
         <nav role="navigation" class="navbar">
             <ul>
@@ -32,23 +32,39 @@
         </nav>
     </header>
     <div>
-        <main role="main" class="central-block">
+        <main role="main" class="central-block bg-white">
             <h1>Sarah Gebauer
             </h1>
             <div>
                 <h2>Colors</h2>
-                <section class="flex-parent-row ">
+                <section class="flex-parent-row">
                     <div class="color-holder ">
                         <div class="square bg-primary "></div>
-                        Primary color: Crimson<br/> hsla(348, 83%, 47%, 1)
+                        Primary color: Purple<br/> hex: #55006B
                     </div>
                     <div class="color-holder ">
                         <div class="square bg-secondary "></div>
-                        Secondary color: Blue<br/> hsla(216, 83%, 47%, 1)
+                        Secondary color: Orange<br/> hex: #FF7617
                     </div>
                     <div class="color-holder ">
                         <div class="square bg-tertiary "></div>
-                        Tertiary color: Yellow<br/> hsla(54, 83%, 47%,1)
+                        Tertiary color: Beige<br/> hex: #FFF1E7
+                    </div>
+                    <div class="color-holder ">
+                        <div class="square bg-grey "></div>
+                        Grey<br/> hex: #292929
+                    </div>
+                    <div class="color-holder ">
+                        <div class="square bg-gray "></div>
+                        Gray<br/> hex: #eee
+                    </div>
+                    <div class="color-holder ">
+                        <div class="square bg-black "></div>
+                        Black<br/> hex: #000
+                    </div>
+                    <div class="color-holder ">
+                        <div class="square bg-white "></div>
+                        White<br/> hex: #fff
                     </div>
                 </section>
             </div>
@@ -58,8 +74,7 @@
                     <h3>Headings</h3>
                     <section>
                         <h1>Heading 1</h1>
-                        <p>Heading 1 aka <code class="language-markup ">&lt;h1&gt;</code> is used as website's main heading.
-                            In case of Lone Wolf Comic the logo would be inside <code class="language-markup ">&lt;h1&gt;</code>                            tags</p>
+                        <p>Won't be used in text, there will be a logo in SVG</p>
                         <h2>Heading 2</h2>
                         <p>Heading 2 aka <code class="language-markup ">&lt;h2&gt;</code> is used as a post title</p>
                         <h3>Heading 3</h3>
@@ -88,8 +103,10 @@
                         <p><b>Bold in <code class="language-markup
             ">&lt;b&gt;</code></b> and <strong>bold in <code class="language-markup ">&lt;strong&gt;</code></strong></p>
                         <p>
-                            <u>Underline in <code class="language-markup
-            ">&lt;u&gt;</code></u>
+                            <u>Underline in
+                                <code class="language-markup
+            ">&lt;u&gt;</code>
+                            </u>
                         </p>
                         <small>u, i and b shouldn't be used at all. em, strong, small and others only when it makes semantically sense. Also this is an example of <code class="language-markup ">&lt;small&gt;</code></small>
                         <h4>Longer texts</h4>
@@ -139,23 +156,65 @@
                         <button class="button button-primary no-shadow ">No shadow</button>
                     </div>
                 </div>
-
             </div>
             <div id="compounded">
                 <h2>Compounded</h2>
+                <div class="post">
+                    <h3>Text in post</h3>
+                    <p>
+                        I love cheese, especially cheese on toast cream cheese. Caerphilly jarlsberg the big cheese emmental manchego fondue when
+                        the cheese comes out everybody's happy who moved my cheese. Fromage frais emmental taleggio monterey
+                        jack say cheese stilton parmesan when the cheese comes out everybody's happy. Airedale queso say
+                        cheese cottage cheese chalk and cheese brie pepper jack cheese and biscuits. Cream cheese cow ricotta
+                        squirty cheese stilton roquefort say cheese stinking bishop. Croque monsieur lancashire st. agur
+                        blue cheese boursin cheesecake cheesy feet cauliflower cheese the big cheese. Cheesecake the big
+                        cheese pepper jack parmesan fondue.
+                    </p>
+                </div>
+                <div class="post">
+                    <h3>Post text with JSBin and PrismJS embedded</h3>
+                    <p>
+                        I love cheese, especially cheese on toast cream cheese. Caerphilly jarlsberg the big cheese emmental manchego fondue when
+                        the cheese comes out everybody's happy who moved my cheese. Fromage frais emmental taleggio monterey
+                        jack say cheese stilton parmesan when the cheese comes out everybody's happy. Airedale queso say
+                        cheese cottage cheese chalk and cheese brie pepper jack cheese and biscuits. Cream cheese cow ricotta
+                        squirty cheese stilton roquefort say cheese stinking bishop. Croque monsieur lancashire st. agur
+                        blue cheese boursin cheesecake cheesy feet cauliflower cheese the big cheese. Cheesecake the big
+                        cheese pepper jack parmesan fondue.
+                    </p>
+                    <p>
+                        <!--<a class="jsbin-embed" href="http://jsbin.com/zuhidu/1/embed?html,output">JS Bin on jsbin.com</a>
+                        <script src="http://static.jsbin.com/js/embed.min.js?3.41.0"></script>-->
+                    </p>
+                    <p>
+                        I love cheese, especially cheese on toast cream cheese. Caerphilly jarlsberg the big cheese emmental manchego fondue when
+                        the cheese comes out everybody's happy who moved my cheese. Fromage frais emmental taleggio monterey
+                        jack say cheese stilton parmesan when the cheese comes out everybody's happy. Airedale queso say
+                        cheese cottage cheese chalk and cheese brie pepper jack cheese and biscuits. Cream cheese cow ricotta
+                        squirty cheese stilton roquefort say cheese stinking bishop. Croque monsieur lancashire st. agur
+                        blue cheese boursin cheesecake cheesy feet cauliflower cheese the big cheese. Cheesecake the big
+                        cheese pepper jack parmesan fondue.
+                    </p>
+                    <pre><code class="language-css">p { color: red }</code></pre>
+                    <p>
+                        I love cheese, especially cheese on toast cream cheese. Caerphilly jarlsberg the big cheese emmental manchego fondue when
+                        the cheese comes out everybody's happy who moved my cheese. Fromage frais emmental taleggio monterey
+                        jack say cheese stilton parmesan when the cheese comes out everybody's happy. Airedale queso say
+                        cheese cottage cheese chalk and cheese brie pepper jack cheese and biscuits. Cream cheese cow ricotta
+                        squirty cheese stilton roquefort say cheese stinking bishop. Croque monsieur lancashire st. agur
+                        blue cheese boursin cheesecake cheesy feet cauliflower cheese the big cheese. Cheesecake the big
+                        cheese pepper jack parmesan fondue.
+                    </p>
+                </div>
                 <div>
-                    <h3>Navbar line</h3>
-                    <header class="">
-                        <nav role="navigation" class="navbar">
-                            <ul>
-                                <li><a href=" styleguide/ ">Meta styleguide</a></li>
-                                <li><a href="sarahgebauer/ ">Sarah Gebauer styleguide</a></li>
-                                <li><a href="blogonapaper/ ">Blog On A Paper styleguide</a></li>
-                                <li><a href="lonewolfcomic/ ">Lone Wolf Comic styleguide</a></li>
-                                <li><a href="kitifromspace/ ">Kiti From Space styleguide</a></li>
-                            </ul>
-                        </nav>
-                    </header>
+                    <h3>Portfolio piece thumbnail</h3>
+                    <div class="piece-thumbnail">
+                        <img src="" alt="Image is missing" />
+                        <span class="piece-thumbnail-title"><a href="#">Name of the project</a></span>
+                        <div class="piece-meta">
+                            <span="piece-pill">Angular 2</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="complex">

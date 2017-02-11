@@ -1,0 +1,21 @@
+/* Main/Big classes */
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.post {
+    max-width: 35rem;
+
+    p {
+        margin: 2rem 0;
+    }
+}
+
+/* Utility classes */
+.flex-parent-row {
+    display: flex;
+    flex-flow: row wrap;
+}

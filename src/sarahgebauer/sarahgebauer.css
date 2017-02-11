@@ -387,26 +387,108 @@ footer.styleguide {
     .styleguide .sidebar .sidebar-link a, .styleguide .sidebar .sidebar-link a:visited, .styleguide .sidebar .sidebar-link a:link, .styleguide .sidebar .sidebar-link a:active, .styleguide .sidebar .sidebar-link a:hover {
       color: white; }
 
-.styleguide {
+.square {
+  width: 150px;
+  height: 150px; }
+  .square.bg-white {
+    border: 1px solid #000; }
+
+.color-holder {
+  margin: 0 1rem; }
+
+.bg-primary {
+  background: #55006B; }
+
+.color-primary {
+  color: #55006B; }
+
+.bg-secondary {
+  background: #FF7617; }
+
+.color-secondary {
+  color: #FF7617; }
+
+.bg-tertiary {
+  background: #FFF1E7; }
+
+.color-tertiary {
+  color: #FFF1E7; }
+
+.bg-grey {
+  background: #292929; }
+
+.color-grey {
+  color: #292929; }
+
+.bg-gray {
+  background: #eee; }
+
+.color-gray {
+  color: #eee; }
+
+.bg-black {
+  background: #000; }
+
+.color-black {
+  color: #000; }
+
+.bg-white {
+  background: #fff; }
+
+.color-white {
+  color: #fff; }
+
+.color-holder {
+  margin: 0 1rem; }
+
+body {
   font-size: 1.05062rem;
   font-family: 'Cabin', sans-serif; }
-  .styleguide h1, .styleguide h2, .styleguide h3, .styleguide h4, .styleguide h5, .styleguide h6 {
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 2rem 0; }
+
+h1 {
+  font-size: 3.27149rem; }
+  h1 sup {
+    font-size: 0.97561rem; }
+
+h2 {
+  font-size: 3.27149rem; }
+
+h3 {
+  font-size: 2.68506rem; }
+
+h4 {
+  font-size: 2.43254rem; }
+
+h5 {
+  font-size: 1.9965rem; }
+
+h6 {
+  font-size: 1.63862rem; }
+
+.italicized {
+  font-style: italic; }
+
+.boldened {
+  font-weight: 700; }
+
+p {
+  line-height: 1.5; }
+
+/* Main/Big classes */
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem; }
+
+.post {
+  max-width: 35rem; }
+  .post p {
     margin: 2rem 0; }
-  .styleguide h1 {
-    font-size: 3.27149rem; }
-    .styleguide h1 sup {
-      font-size: 0.97561rem; }
-  .styleguide h2 {
-    font-size: 3.27149rem; }
-  .styleguide h3 {
-    font-size: 2.68506rem; }
-  .styleguide h4 {
-    font-size: 2.43254rem; }
-  .styleguide h5 {
-    font-size: 1.9965rem; }
-  .styleguide h6 {
-    font-size: 1.63862rem; }
-  .styleguide .italicized {
-    font-style: italic; }
-  .styleguide .boldened {
-    font-weight: 700; }
+
+/* Utility classes */
+.flex-parent-row {
+  display: flex;
+  flex-flow: row wrap; }
