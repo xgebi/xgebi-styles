@@ -8,6 +8,7 @@ main {
 
 .post {
     max-width: 35rem;
+    margin: 0 auto;
 
     p {
         margin: 2rem 0;
@@ -18,4 +19,11 @@ main {
 .flex-parent-row {
     display: flex;
     flex-flow: row wrap;
+}
+
+@for $i from 1 through 9 {
+    $j: $i * 10;
+    .flex-child-#{$j} {
+        flex: 0 0 (10% * $i);
+    }
 }
